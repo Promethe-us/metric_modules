@@ -1,0 +1,3 @@
+[submodule "modules/metric3d"]
+	path = metric3d
+	url = https://github.com/YvanYin/Metric3D
