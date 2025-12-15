@@ -13,10 +13,10 @@ metric3d_mono_path = metric3d_path / 'mono'
 sys.path.append(str(metric3d_path))
 sys.path.append(str(metric3d_mono_path))
 from .metric3d.mono.model.monodepth_model import get_configured_monodepth_model
-from .metric3d.mono.mono.utils.running import load_ckpt
-from .metric3d.mono.mono.utils.do_test import transform_test_data_scalecano, get_prediction
-from .metric3d.mono.mono.utils.mldb import load_data_info, reset_ckpt_path
-from .metric3d.mono.mono.utils.transform import gray_to_colormap
+from .metric3d.mono.utils.running import load_ckpt
+from .metric3d.mono.utils.do_test import transform_test_data_scalecano, get_prediction
+from .metric3d.mono.utils.mldb import load_data_info, reset_ckpt_path
+from .metric3d.mono.utils.transform import gray_to_colormap
 
 __ALL__ = ['Metric3D']
 
